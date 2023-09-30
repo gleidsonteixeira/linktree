@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 350px;
+    background-image: url('./wave.svg');
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: top center;
+    margin: 0 auto;
+    padding: 85px 16px 46px 16px;
+    text-align: center;
+    color: white;
+}
+#container img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+}
+#container h1{
+    margin-top: 26px;
+}
+#container p{
+    margin-bottom: 16px;
+}
+#container .redes{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 46px;
+}
+#container .redes li a{
+    width: 46px;
+    height: 46px;
+    background-color: #5000ca;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+#container .links li a{
+    background-color: #5000ca;
+    display: block;
+    margin-bottom: 16px;
+    line-height: 46px;
+    border-radius: 25px;
+    color: white;
+}
+
+@media only screen and ( max-width: 480px ){
+    #container{
+        width: 100%;
+    }
+}
